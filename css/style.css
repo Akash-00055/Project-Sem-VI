@@ -110,18 +110,22 @@ section{
 .header .header-1 .logo i{
     color:var(--yellow);
 }
-.header .header-1 .head-logo{
+.header .header-2 .navbar .head-logo{
     cursor: pointer;
+    justify-content: right;
+    float: right;
+    margin-right: 5%;
 }
 
 .header .header-2 .search-form{
+    margin: 10px;
     width:50rem;
-    height:5rem;
+    height:3rem;
     border:var(--border);
     overflow: hidden;
     background:#fff;
     display:flex;
-    align-content: right;
+    align-content: center;
     border-radius: .5rem;
     justify-content: right;
     float:right;
@@ -415,6 +419,7 @@ Sidebar
   /* border-radius: 8px; */
   position: absolute;
   left: 0;
+  margin: 7px;
   justify-content: left;
     float:left;
     margin-left: 0%;
